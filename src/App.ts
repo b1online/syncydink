@@ -51,9 +51,9 @@ export default class App extends Vue {
     // Horrible hack since buggyfill doesn't work for android chrome. Just lose
     // like 16 units from viewport height. Remove this once the android fix
     // lands in the buggyfill.
-    if (/Android/i.test(navigator.userAgent)) {
-      document.getElementById("gesture-wrapper")!.style.height = "84vh";
-    }
+    // if (/Android/i.test(navigator.userAgent)) {
+    //  document.getElementById("gesture-wrapper")!.style.height = "84vh";
+    // }
     // this.loadHapticsTestData();
   }
 
