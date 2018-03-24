@@ -4,13 +4,13 @@
     "target": "es6",
     "module": "es2015",
     "moduleResolution": "node",
-    "strict": true,
-    "strictPropertyInitialization": false,
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "noImplicitThis": true,
+    "strict": false,
+    "strictPropertyInitialization": false,
     "outDir": "./dist/build"
   },
   "include": [
