@@ -188,11 +188,11 @@ export default class App extends Vue {
   // ratios. Fluid doesn't seem to work well for this, so we're just trying to
   // catch all resizes and send the info accordingly.
   private setVideoHeight() {
-    // const videoContainer = document.getElementById("video-container")!;
-    // const videoEncoder = document.getElementById("video-encoder")!;
-    // this.videoHeight = videoEncoder === null ?
-    //   videoContainer.clientHeight :
-    //   videoContainer.clientHeight - videoEncoder.clientHeight;
+    const videoContainer = document.getElementById("video-container")!;
+    const videoEncoder = document.getElementById("video-encoder")!;
+    this.videoHeight = videoEncoder === null ?
+      videoContainer.clientHeight :
+      videoContainer.clientHeight - videoEncoder.clientHeight;
   }
 
   private onShowTimelineChange(aChecked: boolean) {
