@@ -89,7 +89,7 @@ export default class VideoPlayer extends Vue {
     case "2d":
       videojs.classList.remove(this.halfScreenClass);
       videojs.classList.add(this.fullScreenClass);
-      this.currentPlayer!.height(this.videoHeight);
+      //this.currentPlayer!.height(this.videoHeight);
       return;
     case "split":
       this.show2DVideo = true;
