@@ -17,7 +17,7 @@ const noraSmallIcon = require("../../../static/images/nora-250.png");
 export default class ButtplugSimulator extends Vue {
 
   @Prop()
-  private currentMessages: ButtplugMessage[];
+  private currentMessages!: ButtplugMessage[];
   @Prop()
   private paused: boolean;
   private vibratorImageURL: string = "";
