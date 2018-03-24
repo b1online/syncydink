@@ -41,7 +41,7 @@
     "@types/mousetrap": "^1.6.0",
     "@types/node": "^9.4.6",
     "@types/tween.js": "^16.9.0",
-    "@types/video.js": "^6.7.3",
+    "@types/video.js": "^6.3.3",
     "chai": "^4.1.2",
     "codecov": "^3.0.0",
     "cross-env": "^5.1.3",
