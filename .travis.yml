@@ -34,5 +34,6 @@ deploy:
     skip-cleanup: true
     local-dir: deploy
     github-token: $GITHUB_TOKEN
+    keep-history: true
     on:
-      branch: master
+      branch: test
